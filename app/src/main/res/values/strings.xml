@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Flexcom</string>
+    <string name="menuSettingsTitle">Settings</string>
+    <string name="menuGraphTitle">Graph</string>
+    <string name="currentGlucose">Last Glucose Level: </string>
+    <string name="GlucoseValueZero">0</string>
+    <string name="averageGlucose">Average Glucose Level:</string>
+    <string name="trendingGlucose">Glucose Trend:</string>
+    <string name="GlucoseTrendingValue">Stable</string>
+    <string name="dailyHigh">Daily High:</string>
+    <string name="dailyLow">Daily Low:</string>
+    <string name="menuExitTitle">Exit</string>
+    <string name="keyPairedTransmitter">pairedTransmitter</string>
+    <string name="connectedTransmitterTitle">Pair New Transmitter</string>
+    <string name="transmitterNotPaired">No Transmitter Paired</string>
+    <string name="nullValue">null</string>
+    <string name="btNotConnectedError">Bluetooth not enabled</string>
+    <string name="transmitterNotConnectedError">No transmitter connected</string>
+    <string name="transmitterNotPairedError">No transmitter paired</string>
+    <string name="pairingDescription">Select a transmitter to pair from below that will be used to record your glucose levels. After pairing,
+                                      the application will attempt to connect to the transmitter.</string>
+    <string name="avialableDevices">Available Devices:</string>
+    <string name="pairedTransmitter">Paired Transmitter:</string>
+    <string name="none">None</string>
+    <string name="keyPairedTransmitterName">pairedTransmitterName</string>
+    <string name="menuRefreshTitle">Refresh</string>
+</resources>

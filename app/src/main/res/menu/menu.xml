@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.flexcom.reading.flexcom.MainActivity">
+
+    <item
+        android:id="@+id/menuRefresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/menuRefreshTitle"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuExit"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/menuExitTitle"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/menuGraph"
+        android:icon="@drawable/ic_graph"
+        android:title="@string/menuGraphTitle"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuSettings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menuSettingsTitle"
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Transmitter Settings">
+
+        <Preference
+            android:key="@string/keyPairedTransmitter"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:persistent="true"
+            android:title="@string/connectedTransmitterTitle"
+            android:summary="@string/transmitterNotPaired"
+            android:defaultValue="@string/transmitterNotPaired">
+
+            <intent
+                android:targetPackage="com.flexcom.reading.flexcom"
+                android:targetClass="com.flexcom.reading.flexcom.PairingActivity"/>
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
